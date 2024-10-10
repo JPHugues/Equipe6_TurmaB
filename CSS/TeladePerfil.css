@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    padding: 20px;
+    padding: 1.25rem; /* 20px -> 1.25rem */
 }
 
 /* Estilos para o cabeçalho */
@@ -18,45 +18,45 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #4CAF50;
-    padding: 10px 20px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+    border-radius: 0.5rem; /* 8px -> 0.5rem */
+    box-shadow: 0px 0.125rem 0.5rem rgba(0, 0, 0, 0.1); /* 0px 2px 8px -> 0px 0.125rem 0.5rem */
     color: white;
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px -> 1.5rem */
     color: white;
 }
 
 header img {
-    width: 30px;
-    height: 30px;
+    width: 1.875rem; /* 30px -> 1.875rem */
+    height: 1.875rem; /* 30px -> 1.875rem */
 }
 
 /* Estilos para a seção de perfil */
 main section {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem; /* 20px -> 1.25rem */
 }
 
 main section img {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem; /* 100px -> 6.25rem */
+    height: 6.25rem; /* 100px -> 6.25rem */
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem; /* 10px -> 0.625rem */
 }
 
 main section h2 {
-    font-size: 22px;
+    font-size: 1.375rem; /* 22px -> 1.375rem */
     color: #4CAF50;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem; /* 10px -> 0.625rem */
 }
 
 main section p {
-    font-size: 16px;
+    font-size: 1rem; /* 16px -> 1rem */
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px -> 1.25rem */
 }
 
 /* Estilos para os links de navegação */
@@ -64,17 +64,17 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 1.25rem; /* 20px -> 1.25rem */
 }
 
 nav a {
     text-decoration: none;
     background-color: #FFA500;
     color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    margin: 10px 0;
-    font-size: 18px;
+    padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+    border-radius: 0.5rem; /* 8px -> 0.5rem */
+    margin: 0.625rem 0; /* 10px 0 -> 0.625rem 0 */
+    font-size: 1.125rem; /* 18px -> 1.125rem */
     transition: background-color 0.3s ease;
 }
 
@@ -85,18 +85,18 @@ nav a:hover {
 /* Estilos responsivos */
 @media (max-width: 600px) {
     header h1 {
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px -> 1.25rem */
     }
 
     main section h2 {
-        font-size: 18px;
+        font-size: 1.125rem; /* 18px -> 1.125rem */
     }
 
     main section p {
-        font-size: 14px;
+        font-size: 0.875rem; /* 14px -> 0.875rem */
     }
 
     nav a {
-        font-size: 16px;
+        font-size: 1rem; /* 16px -> 1rem */
     }
 }
