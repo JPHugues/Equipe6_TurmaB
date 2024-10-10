@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, sans-serif; /* Apply a new font for general text */
+}
+
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+header img, 
+main div h2, 
+main p strong, 
+footer button, 
+a 
+{
+    color: red;
+}
+
+
+footer button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+}
