@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem; 
+    background-color: rgb(53, 64, 69);
+    color: #fff;
+  }
+
+  .container {
+    display: flex;
+    height: 41.6875rem; 
+    width: 23.4375rem; 
+    border: 0.0625rem solid #000;
+    margin: 0 auto; 
+  }
+
+  .sidebar-left {
+    width: 20%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.25rem;
+    border-right: 0.0625rem solid #ccc;
+  }
+
+  .sidebar-left h1 {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+  }
+
+  .profile-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .image-box {
+    width: 6.25rem; 
+    height: 6.25rem;
+    border: 0.0625rem solid #000;
+    margin-right: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .info-box p {
+    margin: 0.3125rem 0;
+    font-size: 0.875rem;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
+  }
+
+  .buttons button {
+    padding: 0.625rem 0.9375rem;
+    font-size: 0.875rem;
+  }
+
+  .sidebar-right {
+    width: 20%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.25rem;
+    border-left: 0.0625rem solid #ccc;
+  }
+
+  .sidebar-right h1 {
+    writing-mode: vertical-rl;
+    font-size: 1.125rem;
+  }
+
+  @media (max-width: 23.4375rem) {
+    .container {
+      width: 100%;
+    }
+
+    .sidebar-left, .sidebar-right {
+      padding: 0.625rem;
+    }
+
+    .buttons button {
+      font-size: 0.75rem;
+      padding: 0.5rem 0.625rem;
+    }
+
+    .image-box {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    .info-box p {
+      font-size: 0.75rem;
+    }
+  }
