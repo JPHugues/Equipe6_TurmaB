@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, sans-serif; /* Apply a new font for general text */
+    font-family: Verdana, sans-serif; 
 }
 
 
@@ -18,12 +18,12 @@ main p strong,
 footer button, 
 a 
 {
-    color: red;
+    color: rgb(28, 146, 210); 
 }
 
 
 footer button {
-    background-color: red;
+    background-color: rgb(28, 146, 210);
     color: white;
     border: none;
     padding: 8px 16px;
@@ -33,6 +33,6 @@ footer button {
 
 
 a {
-    color: red;
+    color: rgb(28, 146, 210);
     text-decoration: none;
 }

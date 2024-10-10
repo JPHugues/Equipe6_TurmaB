@@ -6,16 +6,16 @@ body {
 }
 
 header img {
-    color: red; 
+    color:  rgb(53, 64, 69); 
     margin: 5px;
 }
 
 main h3 {
-    color: red; 
+    color: rgb(28, 146, 210); 
     font-family: Arial, sans-serif;
 }
 a {
-    color: red;
+    color: rgb(28, 146, 210); 
     text-decoration: none;
     font-weight: bold;
     font-family: Arial, sans-serif; 
