@@ -1,38 +1,76 @@
 body {
-    font-family: Verdana, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
 }
 
 
 
 
-body {
-    font-family: 'Open Sans', sans-serif;
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 
-
-header img, 
-main div h2, 
-main p strong, 
-footer button, 
-a 
-{
-    color: rgb(28, 146, 210); 
+img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 5%;
 }
 
-
-footer button {
-    background-color: rgb(28, 146, 210);
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-    font-size: 1em;
+h2 {
+    color: #87CEEB;
 }
 
+p {
+    color: #87CEEB;
+}
 
-a {
-    color: rgb(28, 146, 210);
-    text-decoration: none;
+.imgperfil {
+    min-width: 80px;
+
+}
+
+input {
+    border-style: solid;
+    border-radius: 5rem 5rem 5rem 5rem;
+}
+
+.camera {
+    position: relative;
+    left: 50%;
+    bottom: 5%;
+}
+
+footer {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+p {
+    font-size: 2rem;
+    ;
 }
